@@ -758,7 +758,7 @@ div.speech-blue:after {
   position: relative;
   font-size: 44px;
   padding: 10px 10px 10px 0px; }
-  @media (max-width: 456px) {
+  @media (max-width: 480px) {
     .owner-phone-number {
       max-width: 170px;
       padding-top: 20px;
