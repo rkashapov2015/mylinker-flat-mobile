@@ -17,27 +17,44 @@ button, button:visited, button:focus, button:active, button:hover {
   padding-right: 0; }
 
 .container-image {
-  margin-top: -2vw;
+  margin-top: 70px;
   margin-left: 0;
   margin-right: 0; }
 
 header {
   position: fixed;
   top: 0px;
+  left: 0px;
+  right: 0px;
   width: 100%;
   z-index: 10;
   padding-bottom: 5px;
   background-color: #fff;
   -webkit-transition: top 0.2s ease-in-out;
   transition: top 0.2s ease-in-out;
-  height: 132px;
+  height: 70px;
   padding-top: 15px; }
+
+.subheader{
+  margin-top: 70px;
+  margin-left:  0px;
+  margin-right:   0px;
+}
+
+@media (max-width: 376px){
+  header {
+    height: 55px;
+  }
+  .subheader{
+    margin-top: 52px;
+  }
+}
 
 .navigation {
   top: 12px; }
 
 .nav-up {
-  top: -171px; }
+  top: -250px; }
   @media (max-width: 456px) {
     .nav-up {
       margin-top: -192px; } }
@@ -53,13 +70,8 @@ header {
     color: #2F6F70; }
 
 .container-address {
-  margin-top: 132px;
+  margin-top: 10px;
   margin-bottom: 60px; }
-@media (max-width: 456px){
-  .container-address{
-    margin-top: 120px;
-  }
-}
 
 .block-tabs {
   border-top: 2px solid #979797; }
@@ -177,7 +189,7 @@ ul {
 
 div.speech {
   position: relative;
-  width: 93%;
+  width: 100%;
   margin: 15px auto 0;
   text-align: center;
   background-color: #fff;
@@ -468,11 +480,8 @@ footer {
   padding-bottom: 10px;
   list-style: none; }
   .footer-nav li a {
-    font-size: 40px;
+    font-size: 20px;
     color: #fff; }
-    @media (max-width: 571px) {
-      .footer-nav li a {
-        font-size: 20px; } }
 
 #back-to-top {
   position: fixed;
@@ -521,8 +530,14 @@ footer {
   width: 100%;
   position: relative;
   left: 0;
-  top: 40px;
+  top: 36px;
   background-color: #00398B; }
+
+@media (max-width: 376px){
+  .row-nav .dropdown-menu{
+    top: 20px;
+  }
+}
 
 .row-nav .fa-bars {
   font-size: 30px;
